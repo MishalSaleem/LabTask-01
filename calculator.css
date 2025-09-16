@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Rajdhani:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(135deg, #3a2e2a, #5a463f, #7d685f);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.calculator-table {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 25px;
+    border-spacing: 8px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+
+.display {
+    background: #2a2220;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.display-screen {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #e6d5c3;
+    text-align: right;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #f1e3d3;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 80px;
+    min-height: 80px;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-4px);
+}
+
+
+.operator {
+    background: linear-gradient(145deg, #8c6e63, #7a5c52);
+    color: #fff;
+    font-weight: 600;
+}
+
+.operator:hover {
+    background: linear-gradient(145deg, #9d7f72, #85685f);
+}
+
+
+.equals {
+    background: linear-gradient(145deg, #d4a373, #b37a52);
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: bold;
+}
+
+.equals:hover {
+    background: linear-gradient(145deg, #e6b686, #c58963);
+}
+
+
+.zero {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+
+@media (max-width: 768px) {
+    .button {
+        padding: 15px;
+        min-width: 65px;
+        min-height: 65px;
+        font-size: 1.2em;
+    }
+    .display-screen {
+        font-size: 2em;
+    }
+}
