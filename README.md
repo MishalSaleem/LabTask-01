@@ -5,13 +5,13 @@ This repository contains the solutions for Lab 1 of Full Stack Web Development. 
 ## Included Tasks
 
 - **Task 1: Simple Calculator**  
-  ![Simple Calculator Screenshot](![WhatsApp Image 2025-09-16 at 23 02 24_1be877ee](https://github.com/user-attachments/assets/7957a3e7-23c4-4aab-8d68-6828b1607573)
+  ![Simple Calculator Screenshot](https://github.com/user-attachments/assets/e0936703-359f-4ec8-876f-83f02dc04e99)
 
 - **Task 2: Personal CV Webpage**  
-  ![Personal CV Webpage Screenshot](![WhatsApp Image 2025-09-16 at 23 03 01_c11ce7e1](https://github.com/user-attachments/assets/b845682a-bb47-4fd9-b09b-ad95ca601a41)
+  ![Personal CV Webpage Screenshot](https://github.com/user-attachments/assets/1b6a0f4a-a92b-4fda-87d8-216f3fa11298)
 
 - **Task 3: Class Timetable**  
-  ![Class Timetable Screenshot](![WhatsApp Image 2025-09-16 at 23 03 56_f8599a1d](https://github.com/user-attachments/assets/b9b36103-86f1-49a4-818c-193119660271)
+  ![Class Timetable Screenshot](https://github.com/user-attachments/assets/6e63f52e-77dc-4079-896d-337a2dbc64a6)
 
 ## How to Run
 
