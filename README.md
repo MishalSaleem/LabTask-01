@@ -11,7 +11,6 @@ Included Tasks
  ![WhatsApp Image 2025-09-16 at 23 03 01_8d567f6f](https://github.com/user-attachments/assets/1b6a0f4a-a92b-4fda-87d8-216f3fa11298)
 
 --
-
 	•	Task 3: Class Timetable 
  ![WhatsApp Image 2025-09-16 at 23 03 56_766d7bf6](https://github.com/user-attachments/assets/6e63f52e-77dc-4079-896d-337a2dbc64a6)
 
@@ -37,5 +36,6 @@ Usage
 Author
 
 👩‍💻 Mishal Saleem
+
 
 
