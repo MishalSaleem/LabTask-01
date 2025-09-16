@@ -1,0 +1,133 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F9FAFB;
+    color: #0F172A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+.timetable-container {
+    background-color: #FFFFFF;
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 1600px;
+    border: 1px solid #E5E7EB;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #4B8C94; /* teal */
+}
+
+.header span {
+    font-size: 1em;
+    font-weight: 500;
+    color: #4B8C94;
+}
+
+h1 {
+    color: #2B6C73; /* teal */
+    margin: 0;
+    font-size: 1.9em;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #E5E7EB;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+}
+
+/* Time headers */
+thead th {
+    background-color: #4B8C94; /* dark teal */
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 0.9em;
+    border-bottom: 2px solid #4B8C94;
+}
+
+.time-sub {
+    display: block;
+    font-weight: 400;
+    color: #D1FAE5; /* pale mint */
+    margin-top: 5px;
+}
+
+/* Day column */
+tbody td.day {
+    background-color: #4B8C94; /* dark teal */
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    width: 60px;
+    border-right: 2px solid #3B6B73;
+}
+
+/* Subjects */
+.subject {
+    background-color: #FFFFFF; /* keep white */
+    transition: background-color 0.3s ease;
+    font-size: 0.9em;
+    padding: 12px;
+}
+
+.subject:hover {
+    background-color: #E6F6F8; /* soft aqua on hover */
+}
+
+.course-title {
+    font-weight: 600;
+    color: #2B6C73; /* teal */
+    font-size: 1.05em;
+    margin-bottom: 5px;
+}
+
+.instructor, .course-code, .location {
+    color: #1F4F53; /* dark teal */
+    font-size: 0.85em;
+}
+
+/* Labs */
+.lab {
+    background-color: #E6F6F8; /* light aqua */
+    border: 1px solid #E6F6F8; /* teal border */
+    color: #0F172A;
+}
+
+/* Free slots */
+.free-slot {
+    background-color: #FFFFFF; /* white */
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 0.8em;
+    color: #6B7280;
+    border-top: 1px solid #E5E7EB;
+}
